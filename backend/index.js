@@ -5,7 +5,7 @@ connectToMongo()
 var cors = require('cors')
 
 const app = express()
-const port = 3003 
+const port = 5000 
 
 app.use(cors())
 //provide json access to express middleware
